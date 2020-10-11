@@ -1,0 +1,248 @@
+body {
+   background:#99ccff; 
+}
+.body{
+    position:absolute;
+    width:150px;
+    height:90px;
+    background:#ffd480;
+    left:40%;
+    top:48%;
+    border-radius:0 0 0 70px ;
+    z-index:-1;
+}
+.ear{
+    position:absolute;
+    width:11px;
+    height:23px;
+    background:#cc9900;
+    top:39%;
+    left:42%;
+    border-radius:50px 0px 0 0;
+}
+.ear2{
+     position:absolute;
+    width:10px;
+    height:23px;
+    background:#ffd480;
+    top:39%;
+    left:45%;
+    border-radius:50px 0px 0 0;
+}
+.face{
+    position:absolute;
+    width:100px;
+    height:60px;
+    background:#ffd480;
+    top:42%;
+  left:20%;
+  overflow:hidden;
+    border-radius:1px 1px 0 60px;
+}
+.eye{
+    position:absolute;
+    width:15px;
+    background:#000;
+    height:15px;
+    border-radius:50%;
+    left:60%;
+    top:20%;
+    box-shadow:0 0 0px 7px #cc9900  ;        
+}
+@keyframes anim{
+    50%{
+        transform:translate(2px);
+        top:12%;
+    }
+}
+.pupil{
+    position:absolute;
+    width:7px;
+    height:7px;
+    background:#fff;
+    border-radius:50%;
+    left:10%;
+    top:10%;
+    animation:anim 3s linear infinite;
+}
+.tongue{
+    position:absolute;
+    width:10px;
+    height:12px;
+    background:orange;
+    top:49%;
+    left:24%;
+    transition:2s;
+    z-index:1;
+    border-radius:0 0 50px 50px;
+    animation:tongue 2s linear infinite;
+    
+}
+@keyframes tongue{
+    50%{
+        height:0px;
+    }
+}
+.nose{
+    position:absolute;
+    width:12px;
+    height:10px;
+    background:#000;
+    border-radius:50%;
+    left:18%;
+    top:41%;
+}
+.legs{
+    position:absolute;
+    width:15px;
+    height:40px;
+    background:#ffd480;
+    top:80%;
+    left:20%;
+}
+.legs:nth-child(2){
+    left:36%;
+    top:80%;
+}
+.legs:nth-child(3){
+    left:75%;
+    top:80%;
+}
+.legs:nth-child(4){
+    left:90%;
+    top:80%;
+}
+.nail{
+    position:absolute;
+    width:6px;
+    height:5px;
+    border-radius:100px 0 0 0px;
+    background:#3d3d29;
+        top:85%;
+    left:-20%;
+    z-index:1;
+}
+.shade{
+    position:absolute;
+    width:60px;
+    height:30px;
+    background:#cc9900;
+    left:40%;
+    border-radius:0 0 50px 50px;
+}
+.tail{
+    position:absolute;
+    width:10px;
+    height:60px;
+    background:#ffd480;
+    left:79%;
+    top:43%;
+    transform:rotate(45deg);
+    border-radius:100px 100px 00px 00px;
+    animation:tail 0.8s linear infinite;
+}
+@keyframes tail{
+    50%{
+        transform:rotate(0deg);
+    }
+}
+
+.smile{
+    width:20px;
+    height:10px;
+    border:1px solid #222;
+    border-top:0;
+    background:rgba(0,0,0,0);
+    border-radius:0 0 120px 120px/ 0 0 90px 98px;
+    position:absolute;
+    transform:rotate(-30deg);
+    bottom:20px;
+    left:10px;
+    box-shadow:0 0px 0 rgba(255,255,255,0.8);
+}
+button{
+    width:30px;
+    height:30px;
+    margin-left:2%;
+    background-color:cyan;
+    border:1px solid cyan;
+    border-radius:50%;
+}
+button:hover{
+    outline:0;
+}
+
+header{
+    background-color:#f1f1f1;
+    box-shadow:0 0 40px white;
+    width:95%;
+    top:370px;
+    margin-top:5%;
+    border-radius:20px;  
+     height:100px;
+    font-size:25px;
+    position:fixed;
+    font-family:Almendra SC;
+    }
+
+.yellow{
+    background-color:#000066;
+    border-color:#000066;
+}
+.yellow:hover{
+    box-shadow:0 0 10px #000066 , 0 0 20px #000066 , 0 0 40px #000066;
+}
+.blue{
+    background-color:#ffaa00;
+    border-color:#ffaa00;
+}
+.blue:hover{
+    box-shadow:0 0 10px #ffaa00, 0 0 20px #ffaa00, 0 0 40px #ffaa00;
+}
+.red{
+    background-color:#669999;
+    border-color:#669999;
+}
+.red:hover{
+    box-shadow:0 0 10px #669999, 0 0 20px #669999, 0 0 40px #669999;
+}
+.teal{
+    background:#660033;
+    border-color:#660033;
+}
+.teal:hover{
+   box-shadow:0 0 10px #660033, 0 0 20px #660033, 0 0 40px #660033;
+ 
+}
+.pink{
+    background-color:#666633;
+    border-color:#666633;
+}
+.pink:hover{
+    box-shadow:0 0 10px #666633, 0 0 20px #666633, 0 0 40px #666633;
+ 
+}
+.purple{
+    background-color:#006600;
+    border-color:#006600;
+}
+.purple:hover{
+    box-shadow:0 0 10px #006600, 0 0 20px #006600, 0 0 40px #006600;
+ 
+}
+.one{
+    background-color:teal;
+    border-color:teal;
+}
+.one:hover{
+  box-shadow:0 0 10px teal, 0 0 20px teal, 0 0 40px teal;
+   
+}
+.two{
+    background-color:#6600ff;
+    border-color:#6600ff;
+}
+.two:hover{
+    box-shadow:0 0 10px #6600ff, 0 0 20px #6600ff, 0 0 40px #6600ff;
+ 
+}
